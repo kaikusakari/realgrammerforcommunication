@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+
+    int a,b;
+    cin >> a >> b;
+    int res1 = 0;
+    int res2 = 0;
+    double res3 = 0;
+
+    res1 = a / b;
+    res2 = a % b;
+    res3 = (double) a / (double) b;
+    printf("%d %d %.8f", res1, res2, res3);
+    //cout << res1 << ' ' << res2 << ' ' << printf("%.8f",res3) << endl;
+    return 0;
+}
